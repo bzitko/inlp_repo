@@ -1,2 +1,2 @@
-# inlp_repo
+# Uvod u obradu prirodnog jezika
  
