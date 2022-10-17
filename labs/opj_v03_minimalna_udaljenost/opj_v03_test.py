@@ -41,5 +41,5 @@ def test_alignment(func_align, input, output):
         print("X")
         return
     NS, NT = result
-    print('%s\tporavnanje od %r i %r:\n%s\n%s' % ('OK' if output == result else 'X', S, T, NS, NT))
+    print('%s\tporavnanje od %r i %r:\n%s\n%s' % ('OK' if output == result or result in output else 'X', S, T, NS, NT))
     print()
